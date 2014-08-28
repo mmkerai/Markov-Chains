@@ -6,11 +6,14 @@ You can use the ngram parameter to determine the length of the word chain. Defau
 
 Usage: 
 
-Markov mc = new Markov(String text); 	// where text is a string full of words separated by spaces.
-										// can include sentences and punctuation.
+Markov mc = new Markov(String text); 
 
+// Where text is a string full of words separated by spaces.
+// You can include sentences and punctuation.
 // To generate a sentence:
-String sentence = mc.genMarkov(int words); // where words is the number of words to generate
+
+String sentence = mc.genMarkov(int words);
+// where words is the number of words to generate
 
 Feedback to admin@thecodecentre.co.uk
 
