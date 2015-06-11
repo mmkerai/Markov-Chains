@@ -5,6 +5,9 @@
  * 
  * You can use the ngram parameter to determine the length of the word chain. Default is 2.
  * 
+ * This version creates 2 tables - the first one to start the sentence and the second to continue. 
+ * This way it ensures that specific words are always included in a sentence
+ *
  * Usage: 
  * 
  * Markov mc = new Markov(String text); // where text is a string full of words separated by spaces.
